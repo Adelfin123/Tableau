@@ -1,0 +1,56 @@
+git config --list --show-origin
+
+--- Your Identity
+
+git config --global user.name "Allan Delfin"
+
+git config --global user.email allan.delfin123@gmail.com
+
+--- Checking Your Settings
+git config --list
+git config --system
+
+--- To Check value in specific key
+$ git config user.name
+Allan Delfin
+
+--- To modify editor
+$ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe'
+-multiInst -notabbar -nosession -noPlugin"
+
+
+-----------------------------------
+Initializing a Repository in an Existing Directory
+$ git init
+Initialized empty Git repository in D:/BI/Version_Control/Version2/.git/
+
+2. Add file to Git Repository
+ $ git add progit.pdf	
+ $ git add 'Git Script.txt'
+
+ $ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   Git Script.txt
+        new file:   progit.pdf
+
+------------------------
+to remove the files to be tracked
+ a.)$ rm 'Git Script.txt'
+
+b) to remove file from Git Repository and not be tracked anymore
+$ git rm 'Git Script.txt'
+
+--------
+----------------
+--------
+----------------
+cd /c/user/my_project
+cd D:\BI\Version Control\Version 1
+
+
